@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+.img_frame {
+	display: flex;
+}
+
+.img_frame img {
+	width: 400px;
+	height: auto;
+}
+
+.img_frame img:hover {
+	opacity: 0.5;
+}

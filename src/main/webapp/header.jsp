@@ -6,7 +6,6 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
 <body>
 <header style="position: fixed; top: 0px; left: 0px; width: 100%; height: 40px; line-height: 40px; background-color: #FDCEDF; text-align: right;">
 <a href="login.jsp">로그인</a>
