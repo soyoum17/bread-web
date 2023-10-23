@@ -1,14 +1,256 @@
 @charset "UTF-8";
 
+
+
 .img_frame {
 	display: flex;
+ 	justify-content: space-between; /* 화면 분활해줌 */
 }
 
 .img_frame img {
 	width: 400px;
-	height: auto;
+	height: 750px;
+	
 }
 
 .img_frame img:hover {
 	opacity: 0.5;
+}
+header {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+	line-height: 40px;
+	background-color: #6C3428;
+	text-align: right;
+}
+
+.header_top {
+	display: flex;
+	width: 100%;
+	height: 40px;
+	justify-content: right;
+}
+
+.header_top > *, .header_bottom > * {
+	margin: 0 10px;
+}
+
+.header_bottom {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 40px;
+	background-color: #6C3428;
+}
+
+.header_bottom img {
+	height: 100%;
+}
+.banner_text {
+    position: absolute;
+    color: black;
+    font-weight:bold;
+    padding: 10px;
+    opacity: 0;
+    width: 380px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 50%; 
+}
+
+
+.banner:hover .banner_text {
+    opacity: 1; 
+}
+
+
+.image-gallery1 img {
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: auto; /* 비율에 맞게 높이 조절 */
+
+}
+
+.image-gallery2 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: auto; /* 비율에 맞게 높이 조절 */
+    margin-left: 350px;
+    position: fixed;
+	top: 80px;
+
+}
+
+.image-gallery3 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 710px;
+    position: fixed;
+	top: 80px;
+
+}
+
+.image-gallery4 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1070px;
+    position: fixed;
+	top: 80px;
+
+}
+
+.image-gallery5 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1420px;
+    position: fixed;
+	top: 80px;
+
+}
+
+.image-gallery6 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: auto; /* 비율에 맞게 높이 조절 */
+    position: fixed;
+
+}
+
+.image-gallery7 img{
+    display: flex;
+   width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: auto; /* 비율에 맞게 높이 조절 */
+    margin-left: 350px;
+    position: fixed;
+
+}
+
+.image-gallery8 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 710px;
+    position: fixed;
+
+}
+
+.image-gallery9 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1070px;
+    position: fixed;
+
+}
+
+.image-gallery10 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1420px;
+    position: fixed;
+
+}
+
+.image-bev1 img {
+	margin-top : 75px;
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: auto; /* 비율에 맞게 높이 조절 */
+
+}
+
+.image-bev2 img{
+	margin-top : 40px;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 350px;
+    position: fixed;
+	top: 40px;
+
+}
+
+.image-bev3 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 710px;
+    position: fixed;
+	top: 80px;
+
+}
+
+.image-bev4 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1070px;
+    position: fixed;
+	top: 80px;
+
+}
+
+.image-bev5 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1420px;
+    position: fixed;
+	top: 80px;
+
+}
+
+.image-bev6 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 350px; /* 비율에 맞게 높이 조절 */
+    position: fixed;
+
+}
+
+.image-bev7 img{
+    display: flex;
+   width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: auto; /* 비율에 맞게 높이 조절 */
+    margin-left: 350px;
+    position: fixed;
+
+}
+
+.image-bev8 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 710px;
+    position: fixed;
+
+}
+
+.image-bev9 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1070px;
+    position: fixed;
+
+}
+
+.image-bev10 img{
+    display: flex;
+    width: 270px; /* 각 사진의 너비를 조절하려면 이 값을 조정하세요 */
+    height: 360px; /* 비율에 맞게 높이 조절 */
+    margin-left: 1420px;
+    position: fixed;
+
 }

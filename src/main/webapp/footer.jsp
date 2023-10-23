@@ -7,8 +7,10 @@
 <title>footer</title>
 </head>
 <body>
-<footer style="position: fixed; bottom: 0px; left: 0px; width: 100%; height: 40px; line-height: 40px; background-color:#F2BED1; text-align: center; ">
-이메일k.syrianhamster@gmail.com 고객센터 02.3928.8371
+<footer style="position: fixed; bottom: 0px; left: 0px; width: 100%; height: 40px; line-height: 40px; background-color:#6C3428; text-align: center; ">
+<div class="footer_bottom">
+	<img src="imgs/하단.png" />
+</div>
 </footer>
 </body>
 </html>
